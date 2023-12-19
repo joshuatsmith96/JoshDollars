@@ -19,15 +19,12 @@ function Navigation() {
 
             //Where we currently are on the page
             let currentLink = location.pathname
-            console.log(allLinks[i])
             if (allLinks[i].id === "active") {
                 allLinks[i].removeAttribute("id")
             }
             if (currentLink === link) {
-                console.log("TRUE")
                 allLinks[i].setAttribute("id", "active")
             } else {
-                console.log("FALSE")
             }
         }
 
