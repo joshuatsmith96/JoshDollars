@@ -10,6 +10,7 @@ function App() {
   return (
     <div className="App">
       <Navigation />
+      <h1>TEST</h1>
       <Routes>
         <Route path="/JoshDollars/" element={ <Home /> }/>
       </Routes>
