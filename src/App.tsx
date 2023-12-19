@@ -17,11 +17,11 @@ function App() {
     <div className="App">
       <Navigation />
       <Routes>
-        <Route path="/JoshDollars/" element={ <Home /> }/>
-        <Route path="/JoshDollars/Introduction" element={ <Introduction /> }/>
-        <Route path="/JoshDollars/Resources" element={ <Resources /> }/>
-        <Route path="/JoshDollars/Participate" element={ <Participate /> }/>
-        <Route path="/JoshDollars/FAQ" element={ <FAQ /> }/>
+        <Route path="/Joshdollars/" element={ <Home /> }/>
+        <Route path="/Joshdollars/Introduction" element={ <Introduction /> }/>
+        <Route path="/Joshdollars/Resources" element={ <Resources /> }/>
+        <Route path="/Joshdollars/Participate" element={ <Participate /> }/>
+        <Route path="/Joshdollars/FAQ" element={ <FAQ /> }/>
       </Routes>
       <Footer />
     </div>
