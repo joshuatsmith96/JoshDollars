@@ -1,0 +1,134 @@
+.ExplainCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.ExplainCard-Img-Container{
+    padding: 0px 10px;
+    border: solid;
+    border-width: thin;
+    border-color: rgb(216, 216, 216);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.ExplainCard-Img-Container img{
+    width: 220px;
+    height: 220px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.ExplainCard-Content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.ExplainCard-Content h1{
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #64ABFF;
+    font-family: 'Jost', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.ExplainCard-Content p{
+    font-size: 16px;
+    text-align: left;
+}
+
+
+@media all and (min-width: 320px) {
+    .ExplainCard-Img-Container img{
+        height: 250px;
+        width: 250px;
+    }
+    
+    .ExplainCard-Content h1{
+        font-size: 22px;
+    }
+}
+
+@media all and (min-width: 430px){
+    .ExplainCard-Content p{
+        font-size: 20px;
+    }
+
+    .ExplainCard-Img-Container img{
+        height: 250px;
+        width: 250px;
+    }
+
+    .ExplainCard-Img-Container{
+        margin-bottom: 50px;
+    }
+    
+    .ExplainCard-Content h1{
+        font-size: 30px;
+    }
+}
+
+@media all and (min-width: 700px){
+    .ExplainCard:nth-child(even){
+        flex-direction: row;
+    }
+
+    .ExplainCard:nth-child(odd){
+        flex-direction: row-reverse;
+    }
+    
+    .ExplainCard-Content h1{
+        text-align: left;
+    }
+
+    .ExplainCard-Content{
+        width: 500px
+    }
+
+
+    .ExplainCard-Img-Container{
+        border: none;
+    }
+}
+
+@media all and (min-width: 900px){
+    .ExplainCard{
+        gap: 100px
+    }
+}
+
+@media all and (min-width: 1250px){
+    .ExplainCard{
+        gap: 150px;
+    }
+    
+    .ExplainCard-Content h1{
+        font-size: 40px;
+        margin-bottom: 70px;
+    }
+
+    .ExplainCard-Content p{
+        font-size: 30px;
+    }
+
+    .ExplainCard-Content{
+        width: 700px
+    }
+
+    .ExplainCard-Img-Container img{
+        height: 450px;
+        width: 450px;
+    }
+}
+
+@media all and (min-width: 1500px){
+    
+}

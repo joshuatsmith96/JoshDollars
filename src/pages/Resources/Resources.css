@@ -1,0 +1,125 @@
+.resource-card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ResourceCard{
+    width: 260px;
+    padding: 5px;
+    border: solid;
+    border-width: thin;
+    border-color: rgb(204, 204, 204);
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.ResourceCard img{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.ResourceCard h1{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+
+}
+
+.Resources{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.resource-list a{
+    text-decoration: none;
+    color: #4497D2;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+}
+
+@media all and (min-width: 430px) {
+    .ResourceCard{
+        width: 400px;
+        height: 600px;
+    }
+    .ResourceCard img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .ResourceCard h1{
+        font-size: 35px;
+    }
+
+    .ResourceCard a{
+        font-size: 28px;
+    }
+}
+
+@media all and (min-width: 1000px){
+    .resource-card-container{
+        gap: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ResourceCard{
+        width: 300px;
+        height: 500px;
+    }
+    .ResourceCard img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .ResourceCard h1{
+        font-size: 28px;
+    }
+
+    .ResourceCard a{
+        font-size: 22px;
+    }
+}
+
+@media all and (min-width: 1500px){
+    .resource-card-container{
+        gap: 120px;
+    }
+
+    .ResourceCard{
+        width: 400px;
+        height: 600px;
+    }
+    .ResourceCard img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .ResourceCard h1{
+        font-size: 38px;
+    }
+
+    .ResourceCard a{
+        font-size: 26px;
+    }
+
+    .Resources{
+        padding-bottom: 250px;
+    }
+}

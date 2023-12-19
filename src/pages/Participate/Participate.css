@@ -1,0 +1,278 @@
+.Purchaser{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid;
+    border-width: thin;
+    border-color: #D1D1D1;
+    width: 270px;
+    padding: 15px;
+    margin-bottom: 100px;
+}
+
+.Purchaser h1{
+    font-size: 17px;
+    font-weight: 800;
+    color: #5493DD;
+    font-family: 'Jost', sans-serif;
+    margin: 15px 0px;
+}
+
+.Participate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.purchaser-button-container button{
+    margin-bottom: 15px;
+    font-size: 14px;
+    padding: 10px 40px;
+    font-weight: 600;
+}
+
+.purchaser-button-container button:first-of-type{
+    background-color: white;
+    color: #64ABFF;
+    border: solid;
+    border-width: thin;
+}
+
+.purchaser-button-container button:last-of-type{
+    background-color: #64ABFF;
+    color: white;
+    border: none;
+}
+
+.purchaser-button-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.PurchaserInput{
+    height: 45px;
+    width: 230px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0F0F0;
+    margin-bottom: 20px;
+}
+
+.PurchaserInput input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    background-color: #F0F0F0;
+    padding: 10px;
+    font-size: 17px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 800;
+}
+
+.PurchaserInput-Image-Container{
+    height: 80%;
+    margin-right: 10px;
+    width: 120px;
+    background-color: #D1D1D1;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 3px;
+    padding-right: 10px;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.PurchaserInput-Image-Container p{
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.PurchaserInput-Image-Container img{
+    width: 25px;
+    height: 25px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.QuickButton button{
+    width: 65px;
+    height: 30px;
+    background-color: #F0F0F0;
+    border-radius: 200px;
+    text-align: center;
+    border: none;
+}
+
+.quick-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#conversion-label{
+    margin-top: 20px;
+    font-size: 12px;
+    padding: 5px 20px;
+    background-color: #F0F0F0;
+}
+
+.Purchaser button img{
+    width: 20px;
+    height: 20px;
+    transform: rotate(90deg);
+}
+
+#continue-button{
+    border: none;
+    background-color: #64ABFF;
+    color: white;
+    padding: 8px 40px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media all and (min-width: 500px) {
+    .Purchaser{
+        width: 350px;
+    }
+
+    .Purchaser h1{
+        font-size: 24px;
+    }
+
+    .PurchaserInput{
+        width: 300px;
+    }
+
+    .QuickButton button{
+        width: 80px;
+        font-size: 18px;
+    }
+
+    #conversion-label{
+        font-size: 16px;
+    }
+
+    #continue-button{
+        font-size: 20px;
+    }
+}
+
+@media all and (min-width: 800px){
+    .Purchaser{
+        width: 450px;
+    }
+
+    .Purchaser h1{
+        font-size: 32px;
+    }
+
+    .PurchaserInput{
+        width: 340px;
+        height: 50px;
+        margin-bottom: 40px;
+    }
+
+    .PurchaserInput input{
+        font-size: 22px;
+        padding: 15px
+    }
+
+    .QuickButton button{
+        width: 80px;
+        font-size: 22px;
+    }
+
+    .QuickButton button{
+        height: 40px
+    }
+
+    #conversion-label{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    #continue-button{
+        font-size: 26px;
+    }
+
+    .PurchaserInput-Image-Container img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .PurchaserInput-Image-Container p{
+        font-size: 16px;
+    }
+}
+
+@media all and (min-width: 1300px){
+    .Purchaser{
+        width: 600px;
+    }
+
+    .Purchaser h1{
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+
+    .PurchaserInput{
+        width: 425px;
+        height: 60px;
+        margin-bottom: 40px;
+    }
+
+    .PurchaserInput input{
+        font-size: 26px;
+        padding: 20px
+    }
+
+    .QuickButton button{
+        width: 100px;
+        font-size: 28px;
+    }
+
+    .QuickButton button{
+        height: 55px
+    }
+
+    .quick-buttons{
+        margin-bottom: 30px;
+    }
+
+    #conversion-label{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+
+    #continue-button{
+        font-size: 26px;
+    }
+
+    .PurchaserInput-Image-Container{
+        border-radius: 60px;
+    }
+
+    .PurchaserInput-Image-Container img{
+        width: 35px;
+        height: 35px;
+    }
+
+    .PurchaserInput-Image-Container p{
+        font-size: 16px;
+    }
+}
