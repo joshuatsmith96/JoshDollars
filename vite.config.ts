@@ -6,11 +6,11 @@ import react from '@vitejs/plugin-react-swc'
 export default defineConfig(({ command }) => {
   const config = {
     plugins: [react()],
-    base: '/Joshdollars/',
+    base: '/JoshDollars/',
   }
 
   if (command !== 'serve') {
-    config.base = '/Joshdollars/'
+    config.base = '/JoshDollars/'
   }
 
   return config

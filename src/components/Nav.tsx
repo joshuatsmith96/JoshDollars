@@ -46,7 +46,7 @@ function Navigation() {
     return (
         <Navbar key={"md"} expand={"md"} className="mb-3 Navigation">
             <Container fluid>
-                <Navbar.Brand id="navlogo" as={Link} to="/Joshdollars" href="#">
+                <Navbar.Brand id="navlogo" as={Link} to="/JoshDollars" href="#">
                     <img src={Logo} alt="Joshdollar logo" />
                     <h1>Joshdollar</h1>
                 </Navbar.Brand>
@@ -68,17 +68,17 @@ function Navigation() {
                         <Nav className="justify-content-center flex-grow-1 pe-3 navlinks">
                             <div className="desktop-links">
                                 <Nav.Link id="active" className="link" as={Link} to="/Joshdollars/" >Home</Nav.Link>
-                                <Nav.Link className="link" as={Link} to="/Joshdollars/Introduction">Introduction</Nav.Link>
-                                <Nav.Link className="link" as={Link} to="/Joshdollars/Resources">Resources</Nav.Link>
-                                <Nav.Link className="link" as={Link} to="/Joshdollars/Participate">Participate</Nav.Link>
-                                <Nav.Link className="link" as={Link} to="/Joshdollars/FAQ">FAQ</Nav.Link>
+                                <Nav.Link className="link" as={Link} to="/JoshDollars/Introduction">Introduction</Nav.Link>
+                                <Nav.Link className="link" as={Link} to="/JoshDollars/Resources">Resources</Nav.Link>
+                                <Nav.Link className="link" as={Link} to="/JoshDollars/Participate">Participate</Nav.Link>
+                                <Nav.Link className="link" as={Link} to="/JoshDollars/FAQ">FAQ</Nav.Link>
                             </div>
                             <div className="mobile-links">
-                                <Nav.Link onClick={toggleMenu} className="link" as={Link} to="/Joshdollars" >Home</Nav.Link>
-                                <Nav.Link onClick={toggleMenu} className="link" as={Link} to="/Joshdollars/Introduction">Introduction</Nav.Link>
-                                <Nav.Link onClick={toggleMenu} className="link" as={Link} to="/Joshdollars/Resources">Resources</Nav.Link>
-                                <Nav.Link onClick={toggleMenu} className="link" as={Link} to="/Joshdollars/Participate">Participate</Nav.Link>
-                                <Nav.Link onClick={toggleMenu} className="link" as={Link} to="/Joshdollars/FAQ">FAQ</Nav.Link>
+                                <Nav.Link onClick={toggleMenu} className="link" as={Link} to="/JoshDollars" >Home</Nav.Link>
+                                <Nav.Link onClick={toggleMenu} className="link" as={Link} to="/JoshDollars/Introduction">Introduction</Nav.Link>
+                                <Nav.Link onClick={toggleMenu} className="link" as={Link} to="/JoshDollars/Resources">Resources</Nav.Link>
+                                <Nav.Link onClick={toggleMenu} className="link" as={Link} to="/JoshDollars/Participate">Participate</Nav.Link>
+                                <Nav.Link onClick={toggleMenu} className="link" as={Link} to="/JoshDollars/FAQ">FAQ</Nav.Link>
                             </div>
                             {/* onClick={(e) => changeActive(e)} */}
                         </Nav>
