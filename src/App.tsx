@@ -3,7 +3,7 @@ import './App.css'
 // import {Routes, Route} from 'react-router-dom'
 
 //Global Components
-import Nav from './components/Nav'
+// import Nav from './components/Nav'
 // import Footer from './components/Footer'
 
 function App() {
