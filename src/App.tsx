@@ -1,6 +1,6 @@
 import './App.css'
-import Home from './pages/Home/Home'
-import {Routes, Route} from 'react-router-dom'
+// import Home from './pages/Home/Home'
+// import {Routes, Route} from 'react-router-dom'
 
 //Global Components
 // import Nav from './components/Nav'
@@ -9,9 +9,7 @@ import {Routes, Route} from 'react-router-dom'
 function App() {
   return (
     <div className="App">
-      <Routes>
-        <Route path="/JoshDollars/" element={ <Home /> }/>
-      </Routes>
+      <h1>HI THERE THIS IS AN APP</h1>
     </div>
   )
 }
