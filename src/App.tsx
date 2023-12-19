@@ -9,7 +9,6 @@ import Nav from './components/Nav'
 function App() {
   return (
     <div className="App">
-      <Nav />
       <h1>Nav should be above</h1>
     </div>
   )
