@@ -9,6 +9,7 @@ import {Routes, Route} from 'react-router-dom'
 function App() {
   return (
     <div className="App">
+      <h1>MAIN APP</h1>
       <Routes>
         <Route path="/JoshDollars/" element={ <Home /> } />
       </Routes>
