@@ -3,13 +3,14 @@ import './App.css'
 // import {Routes, Route} from 'react-router-dom'
 
 //Global Components
-// import Nav from './components/Nav'
-// import Footer from './components/Footer'
+import Navigation from './components/Nav'
+import Footer from './components/Footer'
 
 function App() {
   return (
     <div className="App">
-      <h1>HI THERE THIS IS AN APP</h1>
+      <Navigation />
+      <Footer />
     </div>
   )
 }
