@@ -9,11 +9,9 @@ import Footer from './components/Footer'
 function App() {
   return (
     <div className="App">
-      <Navigation />
       <Routes>
         <Route path="/JoshDollars/" element={ <Home /> } />
       </Routes>
-      <Footer />
     </div>
   )
 }
