@@ -67,14 +67,14 @@ function Navigation() {
                     <Offcanvas.Body>
                         <Nav className="justify-content-center flex-grow-1 pe-3 navlinks">
                             <div className="desktop-links">
-                                <Nav.Link id="active" className="link" as={Link} to="/JoshDollars" >Home</Nav.Link>
+                                <Nav.Link id="active" className="link" as={Link} to="/JoshDollars/" >Home</Nav.Link>
                                 <Nav.Link className="link" as={Link} to="/JoshDollars/Introduction">Introduction</Nav.Link>
                                 <Nav.Link className="link" as={Link} to="/JoshDollars/Resources">Resources</Nav.Link>
                                 <Nav.Link className="link" as={Link} to="/JoshDollars/Participate">Participate</Nav.Link>
                                 <Nav.Link className="link" as={Link} to="/JoshDollars/FAQ">FAQ</Nav.Link>
                             </div>
                             <div className="mobile-links">
-                                <Nav.Link onClick={toggleMenu} className="link" as={Link} to="/JoshDollars" >Home</Nav.Link>
+                                <Nav.Link onClick={toggleMenu} className="link" as={Link} to="/JoshDollars/" >Home</Nav.Link>
                                 <Nav.Link onClick={toggleMenu} className="link" as={Link} to="/JoshDollars/Introduction">Introduction</Nav.Link>
                                 <Nav.Link onClick={toggleMenu} className="link" as={Link} to="/JoshDollars/Resources">Resources</Nav.Link>
                                 <Nav.Link onClick={toggleMenu} className="link" as={Link} to="/JoshDollars/Participate">Participate</Nav.Link>
